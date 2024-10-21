@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co.com/3yzV08d/Adobe-Stock-207538366-Preview.jpg",
+      "title": "The Hidden Path",
+      "author": "Alice Green",
+      "author_img": "https://i.ibb.co.com/vjgTNLd/home-1-team-02-768x846.jpg",
+      "posted_date": "2024-10-12",
+      "reading_time": "6 min",
+      "hashtags": ["#mystery", "#adventure", "#journey"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co.com/YRCFKWw/Adobe-Stock-264773855-Preview.jpg",
+      "title": "Echoes of Eternity",
+      "author": "Mark Johnson",
+      "author_img": "https://i.ibb.co.com/728qpg0/home-1-team-01-768x846.jpg",
+      "posted_date": "2024-09-25",
+      "reading_time": "9 min",
+      "hashtags": ["#fantasy", "#epic", "#myth"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co.com/9GC7n7p/Adobe-Stock-230108617-Preview.jpg",
+      "title": "Winds of Change",
+      "author": "Sophia King",
+      "author_img": "https://i.ibb.co.com/JkZZ9zw/team-member-image-1-768x846.jpg",
+      "posted_date": "2024-10-01",
+      "reading_time": "7 min",
+      "hashtags": ["#romance", "#drama", "#life"]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co.com/KVb9CpB/Adobe-Stock-135843072-Preview.jpg",
+      "title": "Beneath the Iron Sky",
+      "author": "James Carter",
+      "author_img": "https://i.ibb.co.com/xDgnS9F/team-member-image-6-768x846.jpg",
+      "posted_date": "2024-10-17",
+      "reading_time": "8 min",
+      "hashtags": ["#sci-fi", "#dystopia", "#future"]
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co.com/3yzV08d/Adobe-Stock-207538366-Preview.jpg",
+      "title": "The Last Horizon",
+      "author": "Emma West",
+      "author_img": "https://i.ibb.co.com/M9tSTZX/team-member-image-5-768x846.jpg",
+      "posted_date": "2024-09-30",
+      "reading_time": "10 min",
+      "hashtags": ["#exploration", "#space", "#adventure"]
+    }
+  ]
+  
