@@ -1,9 +1,9 @@
 import React from 'react'
 import { FaRegBookmark } from "react-icons/fa";
-export default function Blog({item}) {
+export default function Blog({item, handleBookMarks, handleMin}) {
   return (
     <>
-      <div className=' container max-auto border mb-10 bg-red-50 p-10 rounded-lg'>
+      <div className=' container max-auto mb-10 bg-red-50 p-10 rounded-xl'>
         <div>
           <div><img className=' w-full object-cover rounded-lg' src={item.cover} alt="" /></div>
           <div className=' flex justify-between py-5 items-center'>
@@ -17,14 +17,14 @@ export default function Blog({item}) {
               {/* 1st div Close */}
               <div>
                   <div>
-                    <p className=' font-bold flex justify-center items-center gap-3'> <span>{item.reading_time}</span> <span className=' text-green-400 cursor-pointer hover:text-green-700'><FaRegBookmark /></span></p>
+                    <p className=' font-bold flex justify-center items-center gap-3'> <span>{item.reading_time} min read</span> <span onClick={()=>handleBookMarks(item)} className=' text-green-400 cursor-pointer hover:text-green-700'><FaRegBookmark /></span></p>
                   </div>
               </div>
           </div>
           {/* author info div Close */}
           <h2 className=' text-3xl font-bold'>{item.title}</h2>
           <p className=' py-3'>{item.hashtags}</p>
-          <button className=' text-[#6047EC] hover:text-[#7a66f0] font-semibold underline'>Mark as read</button>
+          <button onClick={()=>handleMin(item.reading_time)} className=' text-[#6047EC] hover:text-[#7a66f0] font-semibold underline'>Mark as read</button>
           <div className=' mt-3'><hr /></div>
         </div>
       </div>

@@ -6,7 +6,7 @@
       "author": "Alice Green",
       "author_img": "https://i.ibb.co.com/vjgTNLd/home-1-team-02-768x846.jpg",
       "posted_date": "2024-10-12",
-      "reading_time": "6 min",
+      "reading_time": 6,
       "hashtags": ["#mystery ", " #adventure ", " #journey"]
     },
     {
@@ -16,7 +16,7 @@
       "author": "Mark Johnson",
       "author_img": "https://i.ibb.co.com/728qpg0/home-1-team-01-768x846.jpg",
       "posted_date": "2024-09-25",
-      "reading_time": "9 min",
+      "reading_time": 9,
       "hashtags": ["#fantasy ", " #epic ", " #myth"]
     },
     {
@@ -26,7 +26,7 @@
       "author": "Sophia King",
       "author_img": "https://i.ibb.co.com/JkZZ9zw/team-member-image-1-768x846.jpg",
       "posted_date": "2024-10-01",
-      "reading_time": "7 min",
+      "reading_time": 7,
       "hashtags": ["#romance ", " #drama ", " #life"]
     },
     {
@@ -36,7 +36,7 @@
       "author": "James Carter",
       "author_img": "https://i.ibb.co.com/xDgnS9F/team-member-image-6-768x846.jpg",
       "posted_date": "2024-10-17",
-      "reading_time": "8 min",
+      "reading_time": 8,
       "hashtags": ["#sci-fi ", " #dystopia ", " #future"]
     },
     {
@@ -46,7 +46,7 @@
       "author": "Emma West",
       "author_img": "https://i.ibb.co.com/M9tSTZX/team-member-image-5-768x846.jpg",
       "posted_date": "2024-09-30",
-      "reading_time": "10 min",
+      "reading_time": 10,
       "hashtags": ["#exploration ", " #space ", " #adventure"]
     }
   ]
