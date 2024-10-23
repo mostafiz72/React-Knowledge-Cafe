@@ -16,13 +16,20 @@ export default function App() {
   }, [])
 
   const handleBookMarks = (bookMark)=>{
+    if(bookMarks.find(a=>a.id === bookMark.id)){
+       alert("This Data already Bookmarked")
+    }else{
     setBookMarks([...bookMarks, bookMark]);
+    }
 
     
   }
 
   const handleMin = (minute)=>{
     setTotalMin(totalMin + minute);
+  }
+  const deleteBookMarkData = (id)=>{
+    setBookMarks(bookMarks.filter(b=>b.id!== id));
   }
 
   return (
@@ -46,7 +53,7 @@ export default function App() {
                     <p className=" font-medium">{book.author}</p>
                   </div>
                   <div>
-                    <button className=" bg-red-500 hover:bg-red-700 text-white font-semibold py-2 px-3 rounded-lg">Delete</button>
+                    <button onClick={()=>deleteBookMarkData(book.id)} className=" bg-red-500 hover:bg-red-700 text-white font-semibold py-2 px-3 rounded-lg">Delete</button>
                   </div>
                 </div>
               </div>)}
